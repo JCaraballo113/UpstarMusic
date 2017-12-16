@@ -1,12 +1,27 @@
 # UpStarMusic
-Starter Repo for a MongoDB course on Udemy
 
-You can download this repository by using the green `Clone or Download` button on the right hand side of this page.  This will present you with the option to either clone the repository using Git, or to download it as a zip file.
+Application built as part of Stephen Grider's MongoDB course on Udemy. This app is built with React + Electron and MongoDB. It geneates fake artists for the user to filter through using:
 
-If you want to download it using git, copy paste the link that is presented to you, then run the following at your terminal:
+- Name
+- Age
+- Years Active
+
+It also allows sorting by:
+- Name
+- Age
+- Number of Albums released
+
+# Assigned Task
+
+The front end was pre generated. My job was to create the MongoDB models and the queries.
+
+# Installation
+
+*Disclaimer: Assumes you have a local MongoDB instance setup and running*
 
 ```
-git clone https://github.com/StephenGrider/UpStarMusic.git
+git clone https://gitlab.com/john-react/UpstarMusic.git
 cd UpStarMusic
-npm install
+yarn install
+yarn start
 ```
