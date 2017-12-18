@@ -20,7 +20,7 @@ The front end was pre generated. My job was to create the MongoDB models and the
 *Disclaimer: Assumes you have a local MongoDB instance setup and running*
 
 ```
-git clone https://gitlab.com/john-react/UpstarMusic.git
+git clone https://github.com/JCaraballo113/Muber.git
 cd UpStarMusic
 yarn install
 yarn start
